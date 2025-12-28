@@ -56,24 +56,30 @@ export default function Contact() {
 
           {/* Contact Information */}
           <div className="space-y-6">
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">Visit Us in Osseo</h2>
-              <div className="space-y-3">
-                <div>
-                  <h3 className="font-semibold text-gray-800">Address</h3>
-                  <p className="text-gray-600">
-                    Vector Auto<br />
-                    219 country Road 81<br />
-                    Osseo, MN 55369
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-600">(651) 775-3300</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-600">vectorautomn@gmail.com</p>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="relative h-48">
+                <img src="/images/front_shop.jpg" alt="Vector Auto Shop" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+              </div>
+              <div className="p-8">
+                <h2 className="text-2xl font-semibold mb-4 text-gray-800">Visit Us in Osseo</h2>
+                <div className="space-y-3">
+                  <div>
+                    <h3 className="font-semibold text-gray-800">Address</h3>
+                    <p className="text-gray-600">
+                      Vector Auto<br />
+                      219 country Road 81<br />
+                      Osseo, MN 55369
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800">Phone</h3>
+                    <p className="text-gray-600">(651) 775-3300</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800">Email</h3>
+                    <p className="text-gray-600">vectorautomn@gmail.com</p>
+                  </div>
                 </div>
               </div>
             </div>

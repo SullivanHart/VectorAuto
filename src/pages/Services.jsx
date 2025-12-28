@@ -12,7 +12,10 @@ export default function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Service Card 1 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="Engine Diagnostics & Repair" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/engine_out.jpg" alt="Engine Diagnostics & Repair" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">Engine Diagnostics & Repair</h2>
               <p className="text-gray-600 mb-4">From complex diagnostics to complete engine overhauls, our certified technicians ensure your engine runs smoothly and efficiently.</p>
@@ -27,7 +30,10 @@ export default function Services() {
 
           {/* Service Card 2 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="Brake System Services" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/brakes.jpg" alt="Brake System Services" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">Brake System Services</h2>
               <p className="text-gray-600 mb-4">Your safety is our priority. We offer comprehensive brake inspections, repairs, and replacements using high-quality parts.</p>
@@ -42,7 +48,10 @@ export default function Services() {
 
           {/* Service Card 3 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="Oil Change & Fluid Services" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/oil_change.jpg" alt="Oil Change & Fluid Services" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">Oil Change & Fluid Services</h2>
               <p className="text-gray-600 mb-4">Regular oil changes and fluid checks are crucial for vehicle longevity. We use premium oils and filters.</p>
@@ -57,7 +66,10 @@ export default function Services() {
 
           {/* Service Card 4 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="Tire Services" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/tire.jpg" alt="Tire Services" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">Tire Services</h2>
               <p className="text-gray-600 mb-4">Ensure optimal performance and safety with our tire services, including rotations, balancing, and new tire installation.</p>
@@ -72,7 +84,10 @@ export default function Services() {
 
           {/* Service Card 5 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="Suspension & Steering" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/knuckle.jpg" alt="Suspension & Steering" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">Suspension & Steering</h2>
               <p className="text-gray-600 mb-4">Maintain a smooth and controlled ride with our expert suspension and steering system inspections and repairs.</p>
@@ -87,7 +102,10 @@ export default function Services() {
 
           {/* Service Card 6 */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/images/blank.jpeg" alt="AC & Heating" className="w-full h-56 object-cover" />
+            <div className="relative w-full h-56 overflow-hidden">
+              <img src="/images/maintenance.jpg" alt="AC & Heating" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-25 hover:bg-opacity-15 transition"></div>
+            </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold mb-3 text-gray-800">AC & Heating</h2>
               <p className="text-gray-600 mb-4">Stay comfortable year-round with our automotive AC and heating system diagnostics, repair, and recharge services.</p>

@@ -51,8 +51,9 @@ export default function About() {
                 Our team of certified technicians specializes in European and Japanese vehicles, staying current with the latest automotive technology and repair techniques to provide the best possible service.
               </p>
             </div>
-            <div>
-              <img src="/images/blank.jpeg" alt="Vector Auto Shop" className="w-full h-64 object-cover rounded-lg" />
+            <div className="relative w-full h-64 rounded-lg overflow-hidden">
+              <img src="/images/front_shop.jpg" alt="Vector Auto Shop" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-20 hover:bg-opacity-10 transition"></div>
             </div>
           </div>
         </div>
@@ -69,7 +70,10 @@ export default function About() {
               </div>
               <div className="p-6">
                 <div className="flex items-center mb-4">
-                  <img src="/images/blank.jpeg" alt="Blank Blank" className="w-24 h-24 rounded-full object-cover border-4 border-accent mr-4" />
+                  <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-accent mr-4">
+                    <img src="/images/maintenance.jpg" alt="Aleksei" className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-black bg-opacity-10 hover:bg-opacity-0 transition"></div>
+                  </div>
                   <div>
                     <p className="text-sm text-gray-600 mb-1">15+ Years Experience</p>
                     <p className="text-sm text-gray-600">ASE Master Certified</p>
@@ -94,11 +98,14 @@ export default function About() {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
               <div className="bg-gray-900 text-white p-6">
                 <h3 className="text-2xl font-semibold mb-1">Blank Blank</h3>
-                <p className="text-accent font-medium">Senior Technician</p>
+                <p className="text-accent font-medium">Senior Tfechnician</p>
               </div>
               <div className="p-6">
                 <div className="flex items-center mb-4">
-                  <img src="/images/blank.jpeg" alt="Blank Blank" className="w-24 h-24 rounded-full object-cover border-4 border-accent mr-4" />
+                  <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-accent mr-4">
+                    <img src="/images/welding.jpg" alt="Blank Blank" className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-black bg-opacity-10 hover:bg-opacity-0 transition"></div>
+                  </div>
                   <div>
                     <p className="text-sm text-gray-600 mb-1">12+ Years Experience</p>
                     <p className="text-sm text-gray-600">ASE Certified</p>

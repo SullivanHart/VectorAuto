@@ -4,8 +4,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-6 text-center">
+      <section className="relative text-white py-20">
+        <div className="absolute inset-0">
+          <img src="/images/front_shop.jpg" alt="Auto Shop" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-800 bg-opacity-90"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6">
             Welcome to <span className="text-accent">Vector Auto</span>
           </h1>
@@ -43,17 +47,26 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Our Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <img src="/images/blank.jpeg" alt="Engine Repair" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/engine.jpg" alt="Engine Repair" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-30 hover:bg-opacity-20 transition"></div>
+              </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Engine Repair</h3>
               <p className="text-gray-600">Complete engine diagnostics, repairs, and maintenance for all vehicle makes and models.</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <img src="/images/blank.jpeg" alt="Brake Service" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/brakes.jpg" alt="Brake Service" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-30 hover:bg-opacity-20 transition"></div>
+              </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Brake Service</h3>
               <p className="text-gray-600">Professional brake inspection, repair, and replacement to ensure your safety on the road.</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <img src="/images/blank.jpeg" alt="Oil Changes" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/oil_change.jpg" alt="Oil Changes" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-30 hover:bg-opacity-20 transition"></div>
+              </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Oil Changes</h3>
               <p className="text-gray-600">Quick and affordable oil change services with high-quality filters and lubricants.</p>
             </div>

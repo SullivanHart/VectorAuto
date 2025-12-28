@@ -6,18 +6,23 @@ export default function Directions() {
       <div className="max-w-7xl mx-auto px-6">
         <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Find Vector Auto in Osseo</h1>
         <p className="text-lg text-gray-600 text-center mb-12">
-          Our auto shop is located in Osseo, MN, around the back of the building. Follow these detailed directions to find us easily.
+          Our auto shop is located in Osseo, MN. Please enter in the back of the building when it is time for your appointment.
         </p>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Map Section */}
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800">Location Map</h2>
-            <div className="bg-gray-200 rounded-lg h-64 flex items-center justify-center mb-4">
-              <img src="/images/blank.jpeg" alt="Vector Auto Location Map" className="w-full h-full object-cover rounded-lg" />
-            </div>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=219+Country+Road+81+Osseo+MN+55369"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-gray-200 rounded-lg h-64 flex items-center justify-center mb-4 overflow-hidden hover:opacity-90 transition"
+            >
+              <img src="/images/map.png" alt="Vector Auto Location Map - Click to open in Google Maps" className="w-full h-full object-cover" />
+            </a>
             <p className="text-gray-600 mb-2"><strong>Address:</strong> 219 Country Road 81, Osseo, MN 55369</p>
-            <p className="text-gray-600">Our shop is located at the back of the main building in Osseo, serving the Twin Cities metro area.</p>
+            <p className="text-gray-600">Our shop is located off HWY-169 in Osseo, serving the Twin Cities metro area.</p>
           </div>
 
           {/* Detailed Directions Section */}
@@ -27,42 +32,42 @@ export default function Directions() {
               
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">1</div>
+                  <div className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">1</div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800">From Main Street (Osseo)</h3>
-                    <p className="text-gray-600">Turn onto Country Road 81 and drive for approximately 0.5 miles. Look for the large red brick building with "Oak Avenue Plaza" sign on your right.</p>
+                    <p className="text-gray-600 italic">TODO: Add specific directions for this step</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">2</div>
+                  <div className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">2</div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800">Find the Main Entrance</h3>
-                    <p className="text-gray-600">Continue past the main building's front entrance. Keep driving along the right side of the building - you'll see parking spaces for various businesses.</p>
+                    <p className="text-gray-600 italic">TODO: Add specific directions for this step</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">3</div>
+                  <div className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">3</div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800">Turn Into Our Parking Lot</h3>
-                    <p className="text-gray-600">Look for the driveway that goes around the back of the building. There's a sign that says "Vector Auto - Suite B" at the entrance. Turn right into this driveway.</p>
+                    <p className="text-gray-600 italic">TODO: Add specific directions for this step</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">4</div>
+                  <div className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">4</div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800">Find Our Entrance</h3>
-                    <p className="text-gray-600">Drive around to the back and you'll see our blue and white Vector Auto sign above a glass door entrance. Our shop is the first unit on the left in the back building.</p>
+                    <p className="text-gray-600 italic">TODO: Add specific directions for this step</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-accent text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold">5</div>
+                  <div className="bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold">5</div>
                   <div>
                     <h3 className="text-lg font-medium text-gray-800">Parking Instructions</h3>
-                    <p className="text-gray-600">Park in any of the three designated Vector Auto spots directly in front of our entrance. These are marked with blue lines and our logo. Additional parking is available in the general lot.</p>
+                    <p className="text-gray-600 italic">TODO: Add specific directions for this step</p>
                   </div>
                 </div>
               </div>
@@ -73,20 +78,20 @@ export default function Directions() {
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">Visual Landmarks</h2>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Look for the red brick building with "Oak Avenue Plaza" sign in Osseo</span>
+                  <span className="text-red-600 font-bold mr-2">✓</span>
+                  <span className="italic">TODO: Add visual landmark description</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Find the driveway on the right side of the building</span>
+                  <span className="text-red-600 font-bold mr-2">✓</span>
+                  <span className="italic">TODO: Add visual landmark description</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Watch for our blue and white Vector Auto sign</span>
+                  <span className="text-red-600 font-bold mr-2">✓</span>
+                  <span className="italic">TODO: Add visual landmark description</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-accent mr-2">✓</span>
-                  <span>Our entrance is around the back, first door on the left</span>
+                  <span className="text-red-600 font-bold mr-2">✓</span>
+                  <span className="italic">TODO: Add visual landmark description</span>
                 </li>
               </ul>
             </div>
@@ -108,24 +113,49 @@ export default function Directions() {
           </div>
         </div>
 
+        {/* Video Guide */}
+        <div className="mt-16 bg-white rounded-lg shadow-lg p-8">
+          <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Video Guide to Our Shop</h2>
+          <div className="rounded-lg overflow-hidden bg-gray-900" style={{ height: '500px' }}>
+            <video
+              controls
+              className="w-full h-full object-cover"
+              poster="/images/shop.jpg"
+            >
+              <source src="/images/directions.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="text-gray-600 text-center mt-4">Watch this quick video to see exactly how to find our shop in Osseo</p>
+        </div>
+
         {/* Visual Guide */}
         <div className="mt-16 bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold mb-8 text-center text-gray-800">Visual Guide - Finding Our Osseo Shop</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
-              <img src="/images/blank.jpeg" alt="Main Building Front" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/front_shop.jpg" alt="Main Building Front" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-20 hover:bg-opacity-10 transition"></div>
+              </div>
               <h3 className="font-semibold text-gray-800">Main Building Front</h3>
-              <p className="text-gray-600 text-sm">Start here - look for the red brick building with "Oak Avenue Plaza" sign in Osseo</p>
+              <p className="text-gray-600 text-sm italic"><span className="text-red-600 font-bold">✓</span> TODO: Add visual guide caption</p>
             </div>
             <div className="text-center">
-              <img src="/images/blank.jpeg" alt="Side View" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/blank.jpg" alt="Side View" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-20 hover:bg-opacity-10 transition"></div>
+              </div>
               <h3 className="font-semibold text-gray-800">Right Side Driveway</h3>
-              <p className="text-gray-600 text-sm">Drive past the front entrance and turn right at our Vector Auto sign</p>
+              <p className="text-gray-600 text-sm italic"><span className="text-red-600 font-bold">✓</span> TODO: Add visual guide caption</p>
             </div>
             <div className="text-center">
-              <img src="/images/blank.jpeg" alt="Vector Auto Entrance" className="w-full h-48 object-cover rounded-lg mb-4" />
+              <div className="relative w-full h-48 rounded-lg mb-4 overflow-hidden">
+                <img src="/images/blank.jpg" alt="Vector Auto Entrance" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-black bg-opacity-20 hover:bg-opacity-10 transition"></div>
+              </div>
               <h3 className="font-semibold text-gray-800">Our Back Entrance</h3>
-              <p className="text-gray-600 text-sm">Look for our blue and white sign above the glass door around the back</p>
+              <p className="text-gray-600 text-sm italic"><span className="text-red-600 font-bold">✓</span> TODO: Add visual guide caption</p>
             </div>
           </div>
         </div>

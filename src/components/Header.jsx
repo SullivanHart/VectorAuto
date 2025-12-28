@@ -32,9 +32,6 @@ export default function Header() {
           <a href="/testimonials" className="hover:text-accent transition">
             Testimonials
           </a>
-          <a href="/contact" className="hover:text-accent transition">
-            Contact
-          </a>
         </nav>
 
         {/* Desktop Appointment button */}
@@ -43,7 +40,7 @@ export default function Header() {
             href="/contact"
             className="px-4 py-2 rounded-md bg-accent text-white font-semibold hover:bg-accent-dark transition"
           >
-            Book Appointment
+            Contact
           </a>
         </div>
 
@@ -117,15 +114,6 @@ export default function Header() {
             >
               Contact
             </a>
-            <div className="pt-3 border-t border-gray-800">
-              <a
-                href="/contact"
-                className="block w-full text-center px-4 py-3 rounded-md bg-accent text-white font-semibold hover:bg-accent-dark transition"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Book Appointment
-              </a>
-            </div>
           </div>
         </div>
       )}
